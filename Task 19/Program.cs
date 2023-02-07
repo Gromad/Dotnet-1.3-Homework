@@ -30,3 +30,5 @@ void CheckPalindorm(string number)
 Console.WriteLine("Введите число: ");
 string number = Console.ReadLine();
 
+CheckPalindorm(number);
+
