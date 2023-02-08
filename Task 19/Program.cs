@@ -9,6 +9,7 @@
 
 void CheckPalindorm(string number)
 {
+    
     int len = number.Length;
     if (len == 5)
     {
@@ -28,7 +29,7 @@ void CheckPalindorm(string number)
 }
 
 Console.WriteLine("Введите число: ");
-string number = Console.ReadLine();
+string number = Console.ReadLine()!;
 
 CheckPalindorm(number);
 
